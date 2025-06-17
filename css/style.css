@@ -1,0 +1,183 @@
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 250px;
+}
+
+
+:root {
+    --primary-color: #20B2AA;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --purple-color: #6f42c1;
+    --dark-color: #343a40;
+}
+
+
+.navbar.bg-primary,
+.btn.btn-primary,
+.card-header,
+.card-header.bg-primary,
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.btn.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn.btn-primary:hover {
+    background-color: #1a9999;
+    border-color: #1a9999;
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+
+.hero-section {
+    background: linear-gradient(135deg, var(--primary-color) 0%, #1a9999 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.phone-mockup {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+
+.saldo-card {
+    background: linear-gradient(135deg, var(--primary-color) 0%, #1a9999 100%);
+}
+
+
+.bg-purple {
+    background-color: var(--purple-color);
+}
+
+.text-purple {
+    color: var(--purple-color);
+}
+
+
+.chart-placeholder {
+    padding: 2rem;
+}
+
+
+.navbar.navbar-dark.bg-primary {
+    backdrop-filter: blur(10px);
+    background-color: rgba(32, 178, 170, 0.95);
+}
+
+
+
+.badge.bg-purple {
+    background-color: var(--purple-color);
+}
+
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(32, 178, 170, 0.25);
+}
+
+
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+#margem {
+    margin-top: -2rem;
+    margin-bottom: 3rem;
+}
+
+footer {
+    margin-top: 0;
+    background-color: var(--primary-color);
+}
+
+
+.py-5 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+
+.feature-icon i {
+    transition: transform 0.3s ease;
+}
+
+.card:hover .feature-icon i {
+    transform: scale(1.1);
+}
+
+
+.alert-success {
+    background-color: rgba(40, 167, 69, 0.1);
+    border: 1px solid rgba(40, 167, 69, 0.2);
+    color: #155724;
+}
+
+.navbar {
+    background-color: rgba(32, 178, 170, 1);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+
+.navbar.scrolled {
+    background-color: rgba(32, 178, 170, 1);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+
+.chart-placeholder i {
+    animation: pulse 2s infinite;
+}
+
+.gasto-item {
+    padding-bottom: 1.3rem;
+    padding-top: 1.35rem;
+}
+
