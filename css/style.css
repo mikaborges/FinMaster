@@ -84,10 +84,6 @@ html {
     padding: 2rem;
 }
 
-.chart-placeholder i {
-    animation: pulse 2s infinite;
-}
-
 .form-control:focus {
     border-color: var(--primary-color);
     box-shadow: 0 0 0 0.2rem rgba(32, 178, 170, 0.25);
